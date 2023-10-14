@@ -5,8 +5,8 @@ body {
 }
 
 .dark-bg {
-    background-color: rgb(65,65,65);
-    color: white;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .content-height
@@ -21,7 +21,6 @@ body {
 }
 .header p {
     font-size: 24px;
-    font-weight: 850;
     margin-left: 36px;
 }
 
@@ -56,11 +55,13 @@ body {
     gap: 16px;
 }
 #intro .text{
+    font-size: 18px;
+    color: #E5E7EB;
     max-width: 400px;
 }
 
 #intro h1 {
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -80,9 +81,10 @@ body {
 }
 
 #info h3 {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: 800;
     text-align: center;
+    color: #1F2937;
 }
 
 .cards-container {
@@ -113,14 +115,16 @@ body {
 #quote {
     display: flex;
     flex-direction: column;
-    background-color: lightgray;
+    background-color: #E5E7Eb;
     align-items: center;
+    color: #1F2937;
 
 }
 
 #quote .famous-quote {
     font-style: italic;
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 36px;
     width: 1000px;
 }
 #quote .quote-author {
@@ -161,7 +165,7 @@ body {
 
 
 button {
-    background-color: rgb(126, 126, 247);
+    background-color: #3882F6;
     border-radius: 10px;
     padding: 8px;
     font-weight: 650;
