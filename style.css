@@ -68,12 +68,6 @@ body {
     width: auto;
     height: 300px;
 }
-button {
-    background-color: rgb(126, 126, 247);
-    border-radius: 10px;
-    padding: 8px;
-    font-weight: 650;
-}
 
 .info {
     display: flex;
@@ -140,10 +134,39 @@ button {
 .call-to-action {
     display: flex;
     background-color: white;
+    justify-content: center;
+    margin-top: 58px;
+    margin-bottom: 36px;
+}
+
+.call-to-action .box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 90px;
+    background-color: rgb(61, 61, 255);
+    border-radius: 25px;
+    padding: 24px;
+    color: white;
+}
+
+.call-to-action .text-container {
+    text-align: left;
 }
 
 .footer {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+
+button {
+    background-color: rgb(126, 126, 247);
+    border-radius: 10px;
+    padding: 8px;
+    font-weight: 650;
+    height: 36px;
+    color: white;
 }
