@@ -71,7 +71,43 @@ button {
 
 .info {
     display: flex;
+    flex-direction: column;
     background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0px 0px 16px;
+}
+
+.info h3 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    max-height: 200px;
+    width: auto;
+    border-color: grey;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 20px;
 }
 
 .quote {
