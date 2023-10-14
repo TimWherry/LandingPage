@@ -112,7 +112,23 @@ button {
 
 .quote {
     display: flex;
+    flex-direction: column;
     background-color: lightgray;
+    align-items: center;
+
+}
+
+.quote .famous-quote {
+    font-style: italic;
+    font-size: 38px;
+    font-weight: 300;
+    min-width: 1000px;
+}
+.quote .quote-author {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: right;
+    min-width: 1000px;
 }
 
 .call-to-action {
