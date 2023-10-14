@@ -1,11 +1,47 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+.dark-bg {
+    background-color: rgb(65,65,65);
+    color: white;
+}
+
+.content-height
+{
+    min-height: 200px;
 }
 
 .header {
-    max-height: 30px;
+    max-height: 60px;
     display: flex;
+    justify-content: space-between;
+}
+.header p {
+    font-size: 24px;
+    font-weight: 850;
+    margin-left: 36px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 36px;
+}
+
+.links ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.links li {
+    margin: 5px 16px;
+}
+.links a {
+    text-decoration: none;
+    color: white;
 }
 
 .main {
@@ -19,16 +55,21 @@ body {
 
 .info {
     display: flex;
+    background-color: white;
 }
 
 .quote {
     display: flex;
+    background-color: lightgray;
 }
 
 .call-to-action {
     display: flex;
+    background-color: white;
 }
 
 .footer {
-    display: flex;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
